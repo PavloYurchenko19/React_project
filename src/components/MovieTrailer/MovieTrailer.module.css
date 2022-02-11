@@ -1,0 +1,17 @@
+.full__Screen{
+    width: 100vh;
+    height: 100vh;
+    background: darkcyan;
+}
+.show__box{
+    display: block;
+}
+.hidden__box{
+    display: none;
+}
+h3:hover{
+    cursor: pointer;
+}
+h3{
+    display: inline;
+}

@@ -1,0 +1,40 @@
+.container__for_moviesBox{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 60%;
+align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.pagination{
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination__item{
+    margin: 30px 10px;
+
+
+}
+
+ li {
+    list-style-type: none;
+}
+ .pagination__link{
+     padding: 10px;
+     /*border: 1px solid #000;*/
+     border-radius: 20px;
+ }
+.pagination__link:hover{
+    cursor: pointer;
+    box-shadow: 0 0  3px black;
+}
+.pagination__active{
+    border: 1px solid #000;
+    border-radius: 50% ;
+}
+
+

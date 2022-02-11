@@ -1,0 +1,16 @@
+.movies__main_box{
+    width: 60%;
+    margin:10px auto;
+    box-sizing: border-box;
+
+}
+.center__movie{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nowPlaying__box{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}

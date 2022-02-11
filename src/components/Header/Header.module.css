@@ -1,0 +1,23 @@
+header{
+  height: 70px;
+  background: #000;
+  box-shadow: 0 0 10px black;
+  display: flex;
+
+}
+.header__link{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+nav a{
+  margin:10px  ;
+  font-size: 30px;
+  color: snow;
+  text-decoration: none;
+}
+.search{
+ right: 10px;
+}

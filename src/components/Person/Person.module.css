@@ -1,0 +1,11 @@
+.main__person_div{
+    display: flex;
+}
+.person__movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.person__main{
+    width: 60%;
+    margin: auto;
+}
