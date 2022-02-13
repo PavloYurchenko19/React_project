@@ -1,23 +1,111 @@
-header{
-  height: 70px;
-  background: #000;
-  box-shadow: 0 0 10px black;
-  display: flex;
+.header__light {
+    background: snow;
+}
 
+.header__black {
+    background: #000;
 }
-.header__link{
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
+
+header {
+    height: 70px;
+    box-shadow: 0 0 10px white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    background: black;
 }
-nav a{
-  margin:10px  ;
-  font-size: 30px;
-  color: snow;
-  text-decoration: none;
+
+.header__link {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    width: 60%;
 }
-.search{
- right: 10px;
+
+nav a {
+    margin: 10px;
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
 }
+
+.btn__box {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.switchButton {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin: 0;
+    vertical-align: top;
+    background: #ffffff;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+.switchButton:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+    transform: translateX(0);
+}
+
+.switchButton:checked:after {
+    transform: translateX(calc(100% + 3px));
+    background-color: #fff;
+}
+
+.switchButton:checked {
+    background-color: #808080;
+}
+
+.switchButton .switchButton:after {
+    transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2);
+}
+
+select {
+    position: absolute;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    text-align: left;
+    left: 40px;
+    top: 30px;
+    height: 23px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.header__left {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.header__left button {
+    width: 100px;
+    margin: 0 20px;
+}
+
+.header__left input {
+    border-radius: 20px;
+    color: black;
+    font-size: 16px;
+    padding: 2px;
+}
+

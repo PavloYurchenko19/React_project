@@ -1,9 +1,8 @@
 import React, {useEffect} from 'react';
 import {Outlet} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
 
 import {Header} from "../../components";
-import styles from './MoviesPage.module.css'
-import {useDispatch} from "react-redux";
 import {getAllGenres} from "../../store";
 
 const MoviesPage = () => {
@@ -14,11 +13,12 @@ const MoviesPage = () => {
         dispatch(getAllGenres())
     }, [])
 
-    return (
-        <div>
-            <Header/>
-            <div >
+    const {theme} = useSelector(state => state['moviesReducer'])
 
+    return (
+        <div className={theme === 'light' ? 'light' : 'dark'}>
+            <Header/>
+            <div>
                 <Outlet/>
             </div>
         </div>

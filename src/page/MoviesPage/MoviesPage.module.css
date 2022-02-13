@@ -1,8 +1,7 @@
-.movies__main_box{
+.movies__main_box {
     width: 60%;
-    margin:10px auto;
+    margin: 10px auto;
     box-sizing: border-box;
     display: flex;
-flex-wrap: wrap;
-
+    flex-wrap: wrap;
 }

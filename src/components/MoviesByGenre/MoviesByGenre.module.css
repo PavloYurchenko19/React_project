@@ -1,40 +1,43 @@
-.container__for_moviesBox{
+.container__for_moviesBox {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     width: 60%;
-align-content: center;
+    align-content: center;
     flex-wrap: wrap;
     margin: auto;
 }
-.pagination{
+
+.pagination {
     display: flex;
     width: inherit;
     justify-content: center;
     align-items: center;
-
+    margin: 0 auto;
 }
-.pagination__item{
+
+.pagination__item {
     margin: 30px 10px;
-
-
 }
 
- li {
+li {
     list-style-type: none;
 }
- .pagination__link{
-     padding: 10px;
-     /*border: 1px solid #000;*/
-     border-radius: 20px;
- }
-.pagination__link:hover{
+
+.pagination__link {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pagination__link:hover {
     cursor: pointer;
-    box-shadow: 0 0  3px black;
+    box-shadow: 0 0 3px cornflowerblue;
 }
-.pagination__active{
-    border: 1px solid #000;
-    border-radius: 50% ;
+
+.pagination__active {
+    border: 1px solid cornflowerblue;
+    border-radius: 50%;
 }
+
 
 

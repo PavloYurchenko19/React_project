@@ -1,11 +1,15 @@
-.cast__main_box{
+.cast__main_box {
     width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 250px;
     margin: 5px;
     padding: 5px;
-    border: 1px solid #000;
+}
+
+.cast__main_box img {
+    border-radius: 50%;
 }

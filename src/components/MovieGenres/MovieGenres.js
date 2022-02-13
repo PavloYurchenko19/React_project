@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieGenres = ({genre:{name}}) => {
+const MovieGenres = ({genre: {name}}) => {
     return (
         <>
             {name}

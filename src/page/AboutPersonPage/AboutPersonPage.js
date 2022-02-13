@@ -6,7 +6,6 @@ const AboutPersonPage = () => {
     return (
         <div>
             <Outlet/>
-
         </div>
     );
 };

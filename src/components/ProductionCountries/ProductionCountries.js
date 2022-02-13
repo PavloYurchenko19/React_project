@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductionCountries = ({country:{iso_3166_1,name}}) => {
+const ProductionCountries = ({country: {iso_3166_1, name}}) => {
 
     return (
         <>

@@ -1,8 +1,17 @@
-.box__for_companies{
+.box__for_companies {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.box__for_companies img {
+    width: 300px;
+}
+
+.box__for_companies h3 {
+    margin: 10px;
+    cursor: none;
 }

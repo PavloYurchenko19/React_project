@@ -1,17 +1,25 @@
-.full__Screen{
-    width: 100vh;
-    height: 100vh;
-    background: darkcyan;
-}
 .show__box{
-    display: block;
+    display: flex;
+    justify-content: center;
 }
+
 .hidden__box{
     display: none;
 }
+
 h3:hover{
     cursor: pointer;
 }
+
 h3{
     display: inline;
+}
+
+.trailer__box {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    min-height: 100px;
+    flex-direction: column;
+    align-content: center;
 }

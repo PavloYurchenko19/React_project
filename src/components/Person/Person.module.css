@@ -1,11 +1,21 @@
-.main__person_div{
+.main__person_div {
     display: flex;
 }
-.person__movies{
+
+.person__movies {
     display: flex;
     flex-wrap: wrap;
 }
-.person__main{
+
+.person__main {
     width: 60%;
     margin: auto;
+    text-align: justify;
+    min-height: calc(100vh - 70px);
+}
+
+.movie__description {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
